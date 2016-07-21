@@ -1,13 +1,18 @@
 <!doctype html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <title>My amazing test page for a workshop</title>
-        <link rel="stylesheet" href="css/reset.css" type="text/css" />
+         <!--
+         
+         <link rel="stylesheet" href="css/reset.css" type="text/css" /> 
+         
+         -->
         <link rel="stylesheet" href="css/style.css" type="text/css" />
     </head>
     <body>
         
-        <header id="main-header">
+        <header>
             <h1>Gledsley Müller</h1>
             <h2>Just another developer in the world</h2>
         </header>
@@ -15,18 +20,33 @@
         <section class="my-cv">
             <main>
                 <h3>My super powers</h3>
-                <ul>
-                    <li>powers</li>
+                <ul id="my-powers">
+                    <li>powers
+                        <ul>
+                            <li>super strength</li>
+                            <li>run quite fast</li>
+                        </ul>
+                    </li>
                     <li>powers</li>
                     <li>powers</li>
                     <li>powers</li>
                     <li>powers</li>
                 </ul>
+                <dl>
+                    <dt>What's your favourite text editor?</dt>
+                    <dd><a title="An amazing text editor for grown-ups" href="https://www.sublimetext.com/">Sublime</a>... but I use PHPStorm as well.</dd>
+                </dl>
             </main>
             <aside id="sidebar">
                 <h3>About me</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, dicta, porro, saepe, cumque totam quae ea doloribus dolor officia veniam impedit hic necessitatibus laboriosam reiciendis repellat tenetur placeat quas et.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolore adipisci sunt sit blanditiis nesciunt optio sint! Nobis, sunt, numquam, sit, vero in possimus quos modi esse doloremque consequuntur accusantium!</p>
+                <figure>
+                    <img title="Gledsley's hot shot" alt="Picture of Gledsley smiling like Monalisa" src="images/gledsley.jpg"/>
+                    <figcaption>
+                        Gledsley's at his <strong>best</strong>!
+                    </figcaption>
+                </figure>
+                <p>As the Lead Frontend Developer @EnergyHouseDigi I am responsible for keeping the hight standards of the Frontend team members. I have experience in Agile Project Management methods and use Jira for most of our projects. I also use Trello for smaller projects.</p>
+                
                 
             </aside>
         </section>
@@ -34,7 +54,7 @@
         <footer id="main-footer">
             <h4>Where to find me</h4>
             <ul>
-                <li><a href="https://twitter.com/gepetobio">twitter</a></li>
+                <li><a title="Gledsley's Twitter Acccount" href="https://twitter.com/gepetobio">twitter</a></li>
                 <li><a href="https://uk.linkedin.com/in/gledsleymuller">linkedIn</a></li>
                 <li><a href="https://plus.google.com/+GledsleyMüller">googlePlus</a></li>
                 <li><a href="https://www.pinterest.com/gepetobio/">pinterest</a></li>
